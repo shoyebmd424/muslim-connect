@@ -1,5 +1,6 @@
 const Connection = require("./Config/DBConnect");
 const express = require("express");
+const path = require("path");
 const app = require("./Config/expressConfig");
 app.use(express.static(path.join(__dirname, "./client/build")));
 const initializeSocketServer = require("./SocketServer/index");
