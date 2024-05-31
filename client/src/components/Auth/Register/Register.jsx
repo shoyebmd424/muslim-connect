@@ -23,6 +23,10 @@ const Register = () => {
   };
   const handlesubmit = async (e) => {
     e.preventDefault();
+    if (!more) {
+      setMore(!more);
+      return;
+    }
     try {
       user.role = role;
       const formdata = new FormData();
@@ -274,8 +278,7 @@ const Register = () => {
             </div>
             <div className="d-flex flex-column gap-4">
               <>
-                {!more ? (
-                  <div className="d-flex flex-column w-100">
+                {/* <div className="d-flex flex-column w-100">
                     <button
                       type="button"
                       onClick={() => setMore(!more)}
@@ -283,14 +286,12 @@ const Register = () => {
                     >
                       Sign Up
                     </button>
-                  </div>
-                ) : (
-                  <div className="d-flex flex-column w-100">
-                    <button type="submit" className="btn btn-signup">
-                      Sign Up
-                    </button>
-                  </div>
-                )}
+                  </div> */}
+                <div className="d-flex flex-column w-100">
+                  <button type="submit" className="btn btn-signup">
+                    Sign Up
+                  </button>
+                </div>
                 <div className="d-flex flex-column w-100">
                   <button className="btn btn-google">
                     Sign Up with Google
