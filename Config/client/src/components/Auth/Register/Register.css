@@ -1,0 +1,176 @@
+.register {
+    height: 90vh;
+    /* height: max-content; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow-y: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Modification */
+    width: 100%;
+    top: 18vh;
+    position: relative;
+}
+
+.register .register-left-side {
+    padding: 20px 0;
+}
+
+/* .register .register-left-side{
+padding: 0px 32px 0px 32px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+} */
+.register .register-left-side h4 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 30px; */
+    font-weight: 600;
+    line-height: 38px;
+    margin: 0;
+    text-align: center;
+}
+
+.register .register-left-side p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.register .register-left-side .register-tabs {
+    gap: 10px;
+    background-color: #F9FAFB !important;
+    padding: 4px;
+    gap: 8px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 1px;
+}
+
+.register .register-left-side .register-tabs button {
+    padding: 8px 12px 8px 12px !important;
+    font-weight: 600;
+}
+
+.register .register-left-side .btn-register-active {
+    padding: 8px 12px 8px 12px;
+    background-color: #ffffff;
+    gap: 8px;
+    border-radius: 6px;
+    color: black;
+    box-shadow: 0px 1px 2px 0px #1018280F;
+    box-shadow: 0px 1px 3px 0px #1018281A;
+
+}
+
+.register .register-left-side .register-input {
+    padding: 10px 14px;
+    font-size: 13px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    width: 100%;
+    outline: none;
+}
+
+.register .register-left-side label {
+    font-size: 13px;
+}
+
+.register .register-left-side .register-left {
+    width: 491px;
+    margin: auto;
+}
+
+.register .register-left-side .btn-signup {
+    padding: 10px 18px 10px 18px;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px;
+    opacity: 0px;
+    background: #7C5399;
+    color: #FFFFFF;
+
+}
+
+.register .register-left-side .btn-google {
+    padding: 10px 16px 10px 16px;
+    border-radius: 8px;
+    border: 1px;
+    background-color: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px 0px #1018280D;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.register .register-right-side .said {
+    padding: 24px 20px 24px 20px;
+    background: #a09a9ae5;
+    border: 1px solid #FFFFFF80;
+    margin: 25px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: left;
+    color: #ffffff;
+    z-index: 3;
+}
+
+.register .register-left-side .said p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.register .identity {
+    padding: 16px 24px 16px 24px;
+    margin: 4px;
+    border-radius: 12px;
+    border: 1px solid #EAECF0;
+    z-index: 3;
+
+}
+
+.register .consult-said {
+    margin: 25px;
+    color: #FFFFFF;
+}
+
+.register .consult-said p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    /* line-height: 44px; */
+    /* letter-spacing: -0.02em; */
+    text-align: left;
+}
+
+
+.register .consultant-img {
+    width: 100%;
+    /* padding: 500px 87px 56px 90px; */
+    border-radius: 80px 0px 0px 80px;
+}
+
+.register .alumani-name {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.register .alumani-location {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.register .consult-layer {
+    background-color: #00000070;
+    border-radius: 80px 0px 0px 80px;
+
+}

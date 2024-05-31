@@ -1,0 +1,53 @@
+.create-gigs{
+    position: relative;
+    top: 18vh;
+}
+
+.create-gigs .pregress-comp-bar{
+ width: 80%;
+ margin: 0 auto;
+}
+.create-gigs .progress-content{
+    width: 95%;
+    margin: 0 auto;
+}
+.create-gigs .progress-comp .progress-line{
+    height: 3px;
+    background-color:lightgray;
+}
+.create-gigs .progress-comp .progress-line-active{
+    height: 3px;
+    background-color:var(--purple-color);
+}
+
+
+.selection-theme{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5rem;
+   
+}
+
+.gigs-comp{
+    border: 2px solid var(--border-color );
+    padding:50px 100px ;
+    border-radius: 3px;
+}
+ .btn-create-gigs-back{
+    border: 2px solid var(--purple-color) !important;
+    color: var(--purple-color) !important;
+}
+.btn-create-gigs-continue{
+    border: 2px solid var(--purple-color) !important;
+    color:white !important;
+    background-color: var(--purple-color);
+}
+.btn-create-gigs-continue:hover{
+    border: 2px solid var(--purple-color) !important;
+    color: var(--purple-color) !important;
+}
+.btn-create-gigs-back:hover{
+    border: 2px solid var(--purple-color) !important;
+    color:white !important;
+    background-color: var(--purple-color);
+}

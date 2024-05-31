@@ -1,0 +1,9 @@
+
+.selection-theme-container .them-input input::placeholder,.selection-theme-container .them-input textarea::placeholder,.selection-theme-container .them-input select::placeholder{
+    color: var(--black-light-color);
+    font-size: 15px;
+}
+.selection-theme-container .them-input *[placeholder]{
+    color: var(--black-light-color);
+    font-size: 15px;
+}

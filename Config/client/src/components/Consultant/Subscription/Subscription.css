@@ -1,0 +1,14 @@
+.subscription_btn > button {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 13px 60px 13px 60px;
+  margin: 13px;
+  border-radius: 8px;
+}
+.subscription_plan_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+}

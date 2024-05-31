@@ -1,0 +1,35 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* font-family: "Poppins", sans-serif !important; */
+  /* font-style: normal !important;   */
+}
+/* p,div ,li,a{
+  font-family: "Poppins", sans-serif !important;
+  font-style: normal !important;  
+} */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root{
+  --purple-color:#7C5399;
+  --white-color:#ffffff;
+  --blue-color:#5e15b7;
+  --border-color:#D0D5DD80;
+  --black-light-color: #4e474799;
+  --light-black-color: #475467f0;
+
+  
+  --black-color:#000000;
+
+}
+
+.text-purple{
+  color: #7C5399;
+}

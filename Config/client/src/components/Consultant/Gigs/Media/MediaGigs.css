@@ -1,0 +1,7 @@
+.media-gigs .media-img{
+    aspect-ratio: 1/1;
+    /* margin: 1rem; */
+}
+.media-gigs .gigVideo-label{
+padding: 50px 24px;
+}
