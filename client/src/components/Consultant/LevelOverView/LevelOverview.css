@@ -1,0 +1,14 @@
+.level-overview .level-overview-head{
+min-height: 300px;
+background: linear-gradient(180deg, #7C5399 0%, #291C33 100%);
+}
+.level-overview{
+    top: 18vh;
+}
+.level-overview .overview-content{
+    font-size: 18px;
+}
+
+.level-overview .level-overview-content{
+    margin-top: -180px;
+}

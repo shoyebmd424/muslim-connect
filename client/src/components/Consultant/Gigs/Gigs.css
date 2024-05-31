@@ -1,0 +1,18 @@
+table {
+  margin-top: 20px;
+  width: 100%;
+  border: 0.6px solid rgba(185, 185, 185, 1);
+  border-radius: 7px;
+}
+thead > tr > th {
+  background-color: rgba(231, 229, 251, 0.4);
+}
+tr > th {
+  padding: 20px 20px 20px 20px;
+}
+tr > td {
+  padding: 20px 20px 20px 20px;
+}
+tr {
+  border-radius: 7px;
+}

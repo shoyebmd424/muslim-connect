@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.086074b0.css",
+    "main.js": "/static/js/main.3e98b8a7.js",
+    "static/js/453.0e2217e2.chunk.js": "/static/js/453.0e2217e2.chunk.js",
+    "static/media/Rectangle 1895.png": "/static/media/Rectangle 1895.e2fa4a4bd50ed9a93358.png",
+    "static/media/student.jpeg": "/static/media/student.b0df12a45a610ffe0b79.jpeg",
+    "static/media/RightImg2.png": "/static/media/RightImg2.d39fb9a28bbe9b3755b2.png",
+    "static/media/login.jpeg": "/static/media/login.447e92146cfb689220ee.jpeg",
+    "static/media/RightImg.png": "/static/media/RightImg.e3549ecf8d25534bbe15.png",
+    "static/media/leftImg.png": "/static/media/leftImg.172ef55b330df9d63f1b.png",
+    "static/media/cartImg.png": "/static/media/cartImg.d8ec7b0b19cb84a62e46.png",
+    "static/media/logo.png": "/static/media/logo.25ca45e2086823f49fe1.png",
+    "static/media/Ellipse 21.png": "/static/media/Ellipse 21.f7b3ad3789e7a11fcb00.png",
+    "static/media/dinersclub.jpg": "/static/media/dinersclub.804e5400e7f5c672372c.jpg",
+    "static/media/studentProfile.jpeg": "/static/media/studentProfile.4b7c04f2c027adde898d.jpeg",
+    "static/media/Group 3535.png": "/static/media/Group 3535.db7f2c6dc185e88c101b.png",
+    "static/media/americanexpress.png": "/static/media/americanexpress.a1d716b0dbd4849af610.png",
+    "static/media/elo.png": "/static/media/elo.3d2056640610f29e557d.png",
+    "static/media/png": "/static/media/fc7beb7dfcd2aaf35909605deafde0b1.57dc7b3319f51f7b0353.png",
+    "static/media/learningImg.png": "/static/media/learningImg.a75d1388a1be14521e37.png",
+    "static/media/mir.png": "/static/media/mir.f5165e2010223efb2211.png",
+    "static/media/Rectangle 1891.png": "/static/media/Rectangle 1891.4e629bdc3dd59d6eda53.png",
+    "static/media/visa.png": "/static/media/visa.a05453b4b203ed08557d.png",
+    "static/media/Avatar.png": "/static/media/Avatar.5767c81952f08797e282.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "static/media/Star.svg": "/static/media/Star.957d3219504862a25a287e97f0a4f6f8.svg",
+    "main.086074b0.css.map": "/static/css/main.086074b0.css.map",
+    "main.3e98b8a7.js.map": "/static/js/main.3e98b8a7.js.map",
+    "453.0e2217e2.chunk.js.map": "/static/js/453.0e2217e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.086074b0.css",
+    "static/js/main.3e98b8a7.js"
+  ]
+}

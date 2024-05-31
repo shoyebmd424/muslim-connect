@@ -1,0 +1,19 @@
+.bg-gray,.sender-message{
+    background-color: var( --border-color);}
+
+    .own-message{
+        background-color: var(--purple-color);
+        color: white;
+    }
+    .chat-message{
+        width: 60%;
+    }
+    .message-btn{
+        cursor: pointer;
+        background-color: var(--purple-color);
+    }
+    .mssages{
+        max-height:40vh;
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }

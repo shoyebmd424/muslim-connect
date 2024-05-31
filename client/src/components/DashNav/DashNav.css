@@ -1,0 +1,77 @@
+.c-navbar{
+    border: 1px solid #D0D5DD80;
+}
+.c-navbar ul{
+    list-style: none;
+    font-family: Poppins;
+/* font-size: 21px; */
+font-size: 1.3vw;
+font-weight: 600;
+line-height: 31.5px;
+text-align: left;
+padding: 1.5rem;
+align-items: center;
+
+}
+.c-navbar .search-form{
+padding: 5px 5px 5px 20px;
+border-radius: 8px;
+border: 1px;
+}
+.c-navbar ul li{
+    color: var(--black-light-color);
+    cursor: pointer;
+}
+.btn-search{
+    background-color: var(--purple-color) !important;
+    color: var(--white-color) !important;
+    border: 1px solid var(--purple-color);
+    transition: all 100ms;
+}
+
+/* .btn-search:hover,.connect-btn:hover{
+ color: var(--purple-color) !important;
+ background-color: var(--white-color) !important;
+ border: 1px solid var(--purple-color);
+} */
+.connect-btn{
+padding: 8px 24px 8px 24px;
+border-radius: 10px;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+
+background-color: var(--purple-color) !important;
+color: var(--white-color) !important;
+border: 1px solid var(--purple-color);
+transition: all 100ms;
+
+}
+.navbar-active,.navbar-active li{
+    color: var(--purple-color) !important;
+}
+.c-navbar .logo{
+    width: 103px;
+height: 60px;
+}
+
+/*  childrens */
+
+.c-navbar .dash-child:hover{
+    color: var(--purple-color);
+}
+.c-navbar .dash-child .childrens{
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    transition: height 1s;
+    
+}
+.c-navbar .dash-child:hover .childrens{
+    height: max-content;
+    transition: height 1s;
+}
+.c-navbar .dash-child svg{
+  transform: rotate("180deg");
+}

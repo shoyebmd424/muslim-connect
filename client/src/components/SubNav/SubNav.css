@@ -1,0 +1,33 @@
+.sub-nav {
+    border: 1px solid var(--border-color);
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    top: 18vh;
+    width: 100%;
+    position: relative;
+    /* background-color: aquamarine; */
+}
+
+.sub-nav ul {
+    list-style: none;
+    align-items: center;
+    padding: 19px 46px 19px 46px;
+
+}
+
+.sub-nav ul li {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sub-nav ul li:hover {
+    /* color: var(--purple-color); */
+    background-color: var(--purple-color);
+    color: var(--white-color);
+    cursor: pointer;
+    transition: all 400ms;
+
+}

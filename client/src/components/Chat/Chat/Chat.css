@@ -1,0 +1,26 @@
+.container{
+    max-width: 1450px !important;
+}
+.right-chat-icon{
+    background-color: var(--purple-color);
+    color: white;
+    cursor: pointer;
+}
+.chat .chat-w-25{
+    width: 25%;
+    transition: all 1.4s;
+}
+.chat .chat-w-50{
+    width: 50%;
+    transition: all 1.4s;
+}
+.chat .chat-w-75{
+    width: 75%;
+    transition: all 1.4s;
+}
+.chat .right-colse{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    transform: width 1.4s;
+}

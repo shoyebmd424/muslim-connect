@@ -1,0 +1,15 @@
+.successText {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    /* margin-top: 2%; */
+}
+
+.successText>h5 {
+    margin-left: 2%;
+}
+
+.successText>p {
+    margin-left: 7.5%;
+}

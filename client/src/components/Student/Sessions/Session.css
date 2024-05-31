@@ -1,0 +1,20 @@
+tbody > tr {
+  border: "1px solid black";
+}
+
+.threeDot-close{
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  transition: height 1.5s;
+}
+.threeDot-open{
+  width: 100%;
+  height: fit-content;
+  overflow: hidden;
+  transition: height 1.5s;
+}
+.threeDot li:hover{
+background-color: lightgray;
+cursor: pointer;
+}
